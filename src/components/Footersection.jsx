@@ -16,7 +16,7 @@ const Footersection = () => {
                          </span>
                          <span className=' cursor-pointer'>
                                <Twitter />
-                         </span>npm
+                         </span>
                          <span className=' cursor-pointer'><Facebook/></span>
                     </div>
                 </div>
