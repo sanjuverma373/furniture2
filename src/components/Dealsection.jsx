@@ -31,8 +31,8 @@ const dealcrd = [
 
 const Dealdata = dealcrd.map((dealcrd, index) => (
 
-        <div className=' px-3'>
-                <div className=' bg-white duration-300 hover:shadow-[6px_13px_38px_0_rgba(0,0,0,0.12)] mr-6 px-[23px] pt-[18px] pb-[30px]  md:pb-[53px] mb-6' key={index}>
+        <div className=''>
+                <div className=' bg-white duration-300 hover:shadow-[6px_13px_38px_0_rgba(0,0,0,0.12)] mr-2 md:mr-6 px-[23px] pt-[18px] pb-[30px]  md:pb-[53px] mb-6' key={index}>
                         <img className=' w-full' src={dealcrd.img} alt="#" />
                         <div className=' pt-[19px] flex items-center justify-between pb-[22px]'>
                                 <p className='text-black font-medium text-[16px]  md:text-[20px] font-ff-poppins'>Single Sofa</p>
