@@ -5,7 +5,7 @@ import Commonbtn from './Commonbtn'
 
 const Storysection = () => {
         return (
-                <div className=' pt-[70px] pb-[] md:pb-[113px]'>
+                <div className=' pt-[70px] pb-14 md:pb-[113px]'>
                         <div className=' pt-[70px] max-w-[1320px] px-3 mx-auto'>
                                 <div className=' flex gap-y-6 flex-row flex-wrap -mx-3'>
                                         <div className='relative w-full lg:w-1/2 flex justify-center lg:justify-start'>
