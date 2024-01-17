@@ -32,9 +32,10 @@ function App() {
                                 <div className='flex items-center justify-center h-screen'>
                                         <div class="flex items-center justify-center  flex-colum gap-6">
                                                 <div className='flex items-center gap-3'>
-                                                        <div class="w-4 h-4 rounded-full bg-blue-700 animate-bounce [animation-delay:.7s]"></div>
-                                                        <div class="w-4 h-4 rounded-full bg-blue-700 animate-bounce [animation-delay:.3s]"></div>
-                                                        <div class="w-4 h-4 rounded-full bg-blue-700 animate-bounce [animation-delay:.7s]"></div>
+                                                        <div class="w-4 h-4 rounded-full bg-orange-700 animate-bounce [animation-delay:.7s]"></div>
+                                                        <div class="w-4 h-4 rounded-full bg-orange-700 animate-bounce [animation-delay:.3s]"></div>
+                                                        <div class="w-4 h-4 rounded-full bg-orange-700 animate-bounce [animation-delay:.7s]"></div>
+                                                        <div class="w-4 h-4 rounded-full bg-orange-700 animate-bounce [animation-delay:.7s]"></div>
                                                 </div>                                                
                                         </div>
 

@@ -4,7 +4,7 @@ import { Facebook, Insta, Twitter } from './icons'
 
 const Footersection = () => {
   return (
-    <div className=' bg-[#243040] pt-[87px]'>
+    <div className=' bg-[#243040] pt-[40px] md:pt-[87px]'>
       <div className=' max-w-[1320px] px-3 mx-auto mb-6 md:mb-20'>
           <div className='flex flex-row flex-wrap -mx-3'>
                 <div className=' w-full lg:w-1/2 px-3 '>

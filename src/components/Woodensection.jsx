@@ -4,7 +4,7 @@ import woodensofa from '../assets/images/wooden-sofa.webp'
 
 const Woodensection = () => {
         return (
-                <div className=' bg-[#F7F7F8] mt-[60px] md:mt-[169px] pt-11 relative'>
+                <div className=' bg-[#F7F7F8] mt-[30px] md:mt-[169px] pt-11 relative'>
                         <div className=' max-w-[1320px] mx-auto px-3'>
                                 <div className='flex flex-row flex-wrap -mx-3'>
                                         <div className=' lg:w-5/12 px-3'>

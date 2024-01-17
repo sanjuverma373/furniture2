@@ -5,8 +5,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundSize:
-        { 'size': '100% 100%' },
       fontFamily: {
         "ff-roboto": "Roboto, sans-serif",
         "ff-poppins": "Poppins, sans-serif"

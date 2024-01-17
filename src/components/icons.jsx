@@ -84,3 +84,11 @@ export const Facebook = () => {
 
         )
 }
+export const Cross = () => {
+        return (
+            <svg width="15" height="15" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line x1="0.428917" y1="11.3654" x2="11.0355" y2="0.758839" stroke="black" />
+                <line x1="0.987994" y1="0.781083" x2="11.3618" y2="11.6549" stroke="black" />
+            </svg>
+        )
+    }

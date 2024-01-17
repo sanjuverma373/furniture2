@@ -110,7 +110,7 @@ function Trendingsection() {
                 {sofaData.map((sofaData, index) => (
                   <div
                     key={index}
-                    className="w-[295px] h-[338px] bg-white shadow-[2px_7px_28px_0px_rgba(0,0,0,0.05)] pt-[15px] pr-[12px] pl-[17px]"
+                    className="w-[295px] h-[338px] mb-5 md:mb-0 bg-white shadow-[2px_7px_28px_0px_rgba(0,0,0,0.05)] pt-[15px] pr-[12px] pl-[17px]"
                   >
                     <img
                       className="w-full mb-[13px]"

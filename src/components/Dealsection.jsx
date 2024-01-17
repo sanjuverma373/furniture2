@@ -86,7 +86,7 @@ const Dealsection = () => {
                                         <hr className=' w-[40px] md:w-[95px] h-[1px] bg-black' />
                                         <p className=' text-[#BD7D41] font-normal text-[15px] md:text-[20px] font-ff-poppins'>Shopping Store</p>
                                 </div>
-                                <h2 className=' text-[#243040] leading-normal text-[25px] md:text-[35px] font-bold max-w-[410px] pb-[66px] font-ff-poppins'>Latest Deal</h2>
+                                <h2 className=' text-[#243040] leading-normal text-[25px] md:text-[35px] font-bold max-w-[410px] pb-3 md:pb-[66px] font-ff-poppins'>Latest Deal</h2>
                                 <div className=' flex items-center'>
 
                                         <div className=' w-full '>
@@ -96,12 +96,12 @@ const Dealsection = () => {
                                         </div>
 
                                 </div>
-                        <div className='  flex items-center justify-center  bg-white drop-shadow-[2px_7px_16px_rgba(0,0,0,0.08)] rounded-[50%] shrink-0 w-[55px] md:w-[99px] h-[55px] md:h-[99px] bottom-[-12%] md:bottom-[-20%] right-[15%]   absolute min-[620px]:top-[50%] min-[620px]:right-0'>
+                        <div className='  flex items-center justify-center  bg-white drop-shadow-[2px_7px_16px_rgba(0,0,0,0.08)] rounded-[50%] shrink-0 w-[55px] md:w-[99px] h-[55px] md:h-[99px] bottom-[-12%] md:bottom-[-20%] right-[30%]   absolute min-[620px]:top-[50%] min-[620px]:right-0'>
                                 <button onClick={() => slid?.current?.slickPrev()}>
                                         <Rarrow />
                                 </button>
                         </div>
-                        <div className=' absolute w-[55px] md:w-[99px] h-[55px] md:h-[99px]  flex items-center justify-center bg-white rounded-[50%] drop-shadow-[2px_7px_16px_rgba(0,0,0,0.08)] shrink-0 bottom-[-12%] md:bottom-[-20%] left-[15%]   min-[620px]:top-[50%] min-[620px]:left-0'>
+                        <div className=' absolute w-[55px] md:w-[99px] h-[55px] md:h-[99px]  flex items-center justify-center bg-white rounded-[50%] drop-shadow-[2px_7px_16px_rgba(0,0,0,0.08)] shrink-0 bottom-[-12%] md:bottom-[-20%] left-[30%]   min-[620px]:top-[50%] min-[620px]:left-0'>
                                 <button onClick={() => slid?.current?.slickNext()}> 
                                         <Larrow />
                                 </button>
