@@ -28,8 +28,8 @@ const Storysection = () => {
                                                                 <hr className=' w-[40px] md:w-[95px] h-[1px] bg-black' />
                                                                 <p className=' text-[#BD7D41] font-normal text-[15px] md:text-[20px] font-ff-poppins'>Welcome Our Story</p>
                                                         </div>
-                                                        <h2 className=' text-[#243040] leading-normal text-[35px] font-bold max-w-[436px] pb-[19px] font-ff-poppins'>We create the product you tell us you wish existed.</h2>
-                                                        <p className=' text-[#4D4D4D] text-lg leading-normal font-normal max-w-[530px] pb-[34px] font-ff-poppins'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus, urna at pulvinar porta, augue lorem ullamcorper orci, non rhoncus nisi neque sit amet nibh. Phasellus consectetur semper ante et mattis</p>
+                                                        <h2 className=' text-[#243040] leading-normal text-[25px] md:text-[35px] font-bold max-w-[436px] pb-[19px] font-ff-poppins'>We create the product you tell us you wish existed.</h2>
+                                                        <p className=' text-[#4D4D4D] text-sm md:text-lg leading-normal font-normal max-w-[530px] pb-[34px] font-ff-poppins'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus, urna at pulvinar porta, augue lorem ullamcorper orci, non rhoncus nisi neque sit amet nibh. Phasellus consectetur semper ante et mattis</p>
                                                         <Commonbtn text='READ MORE' />
                                                 </div>
                                         </div>

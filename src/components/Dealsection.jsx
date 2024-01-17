@@ -101,7 +101,7 @@ const Dealsection = () => {
                                         <Rarrow />
                                 </button>
                         </div>
-                        <div className=' absolute w-[55px] md:w-[99px] h-[55px] md:h-[99px]  flex items-center justify-center  bg-white rounded-[50%] drop-shadow-[2px_7px_16px_rgba(0,0,0,0.08)] shrink-0 bottom-[-12%] md:bottom-[-20%] left-[15%]   min-[620px]:top-[50%] min-[620px]:left-0'>
+                        <div className=' absolute w-[55px] md:w-[99px] h-[55px] md:h-[99px]  flex items-center justify-center bg-white rounded-[50%] drop-shadow-[2px_7px_16px_rgba(0,0,0,0.08)] shrink-0 bottom-[-12%] md:bottom-[-20%] left-[15%]   min-[620px]:top-[50%] min-[620px]:left-0'>
                                 <button onClick={() => slid?.current?.slickNext()}> 
                                         <Larrow />
                                 </button>
