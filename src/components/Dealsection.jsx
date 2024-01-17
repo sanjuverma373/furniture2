@@ -40,7 +40,7 @@ const Dealdata = dealcrd.map((dealcrd, index) => (
                         </div>
                         <p className=' text-sm md:text-lg font-normal text-[#4D4D4D] pb-4 font-ff-poppins'>Lorem ipsum dolor </p>
                         <div className='flex items-center justify-between'>
-                                <p className=' text-black text-[19px] md:text-[28.667px] font-semibold font-ff-poppins'>₹1200.00</p>
+                                <p className=' text-black text-[16px] md:text-[28.667px] font-semibold font-ff-poppins'>₹1200.00</p>
                                 <Commonbtn text='ADD TO CART' padding='!p-[10px_12px]' />
                         </div>
                 </div>
