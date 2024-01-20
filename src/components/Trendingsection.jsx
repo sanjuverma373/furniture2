@@ -69,7 +69,8 @@ function Trendingsection() {
                 <div className="flex gap-[14px]">
                   <button
                     className="w-[41px] h-[41px] rounded-[10px] bg-white flex justify-center items-center border border-solid border-transparent hover:scale-125 hover:border-[#243040] duration-300"
-                    onClick={() => slider1?.current?.slickNext()}
+                    
+                      onClick={() => slider1?.current?.slickPrev()}
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -86,8 +87,8 @@ function Trendingsection() {
                   </button>
                   <button
                     className="w-[41px] h-[41px] rounded-[10px] bg-white hover:scale-125 flex justify-center items-center border border-solid border-transparent hover:border-[#243040] duration-300"
-                   
-                    onClick={() => slider1?.current?.slickPrev()}
+                    onClick={() => slider1?.current?.slickNext()
+                  }
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

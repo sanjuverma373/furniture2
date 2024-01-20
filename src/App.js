@@ -1,57 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
-import Headersection from './components/Headersection';
-import Storysection from './components/Storysection';
-import Productsection from './components/Productsection';
-import Woodensection from './components/Woodensection';
-import Dealsection from './components/Dealsection';
-import Offersection from './components/Offersection';
-import Footersection from './components/Footersection';
-import Trendingsection from './components/Trendingsection';
-import Testimonial from './components/Testimonialsection';
-import { useEffect, useState } from 'react';
-
+import React from 'react'
+import Preloader from './components/Preloader'
+import Headersection from './components/Headersection'
+import { Route, Routes } from 'react-router-dom'
+import Home from './Pages/Home'
+import About from './Pages/About'
+import Shop from "./Pages/Shop"
+import Contact from './Pages/Contact'
+import Backtop from './components/Backtop'
 function App() {
-  const [isLoaded, setIsLoaded] = useState(false);
+        return (
+                <div>
+                        <Preloader />
+                        <Headersection />
+                        <Routes>
+                                <Route path='/' element={<Home />} />
+                                <Route path='/about' element={<About/>} />
+                                <Route path='/shop' element={<Shop/>} />
+                                <Route path='/contact' element={<Contact/>} />
+                        </Routes>
+                        <Backtop/>
+                        
+                        
 
-  // Simulating data loading with a delay
-  useEffect(() => {
-          const delay = setTimeout(() => {
-                  setIsLoaded(true);
-                  document.body.style.overflow = '';
-          }, 3500);
-
-          return () => clearTimeout(delay);
-  }, []);
-  useEffect(() => {
-          document.body.style.overflow = 'hidden';
-  }, []);
-  return (
-    <div>
-      <div className=" duration-300 w-screen h-screen bg-black fixed top-0 start-0" style={{ display: isLoaded ? 'none' : 'block', zIndex: 9999 }}>
-                                <div className='flex items-center justify-center h-screen'>
-                                        <div class="flex items-center justify-center  flex-colum gap-6">
-                                                <div className='flex items-center gap-3'>
-                                                        <div class="w-4 h-4 rounded-full bg-orange-700 animate-bounce [animation-delay:.7s]"></div>
-                                                        <div class="w-4 h-4 rounded-full bg-orange-700 animate-bounce [animation-delay:.3s]"></div>
-                                                        <div class="w-4 h-4 rounded-full bg-orange-700 animate-bounce [animation-delay:.7s]"></div>
-                                                        <div class="w-4 h-4 rounded-full bg-orange-700 animate-bounce [animation-delay:.7s]"></div>
-                                                </div>                                                
-                                        </div>
-
-                                </div>
-                        </div>
-      <Headersection />
-      <Storysection />
-      <Trendingsection/>
-      <Productsection />
-      <Woodensection />
-      <Dealsection />
-      <Offersection />
-      <Testimonial/>
-      <Footersection />
-    </div>
-  );
+                </div>
+        )
 }
 
-export default App;
+export default App

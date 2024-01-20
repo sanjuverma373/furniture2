@@ -16,7 +16,9 @@ const Storysection = () => {
                                                                 <div className=' absolute flex bg-white -bottom-[2px] -right-[2px]'>
                                                                         <div className='p-2 sm:p-3 md:p-4 flex items-center gap-2'>
                                                                                 <p className=' text-[#243040] font-Poppins font-normal text-xs relative after:absolute after:w-10 sm:after:w-[50px] md:after:w-[66px] after:h-[1px] after:top-1/2 after:right-0 pr-12 sm:pr-[62px] md:pr-[78px] after:bg-[#243040] font-ff-poppins'>Explore Video</p>
-                                                                                <Video />
+                                                                                <span className=' cursor-pointer'>
+                                                                                        <Video />
+                                                                                </span>
                                                                         </div>
                                                                 </div>
                                                         </div>

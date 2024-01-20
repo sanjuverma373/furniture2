@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import navlogo from '../assets/images/nav-logo.webp'
 import { Cross, Search, Shoping } from "./icons";
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Navsec = () => {
         const location = useLocation(); const [isOpen, setOpen] = useState(false); const [search, setSearch] = useState(false); const [input, setInput] = useState([]);
@@ -17,11 +17,7 @@ const Navsec = () => {
                 setSearch(false);
         };
         if (isOpen == true) { document.body.classList.add("overflow-hidden") }
-        else { document.body.classList.remove("overflow-hidden") }
-        function RemoveOverflow() {
-                setOpen(false)
-                document.body.classList.remove("overflow-hidden")
-        }
+        else { document.body.classList.remove("overflow-hidden") }       
 
 
         const [first, setfirst] = useState(false);
@@ -32,11 +28,10 @@ const Navsec = () => {
                 } else {
                         document.body.classList.remove("overflow-hidden");
                 }
-        }
-        function CloseView() {
-                setfirst(false);
-                document.body.classList.remove("overflow-hidden");
-        }
+        }       
+        
+        {first ? document.body.classList.add("overflow-hidden"): document.body.classList.remove("overflow-hidden")}
+        
         return (
                 <div>
                         <nav className=" max-w-[1320px] px-3 mx-auto">
@@ -46,42 +41,42 @@ const Navsec = () => {
                                         </div>
                                         <div className="flex items-center  gap-[10px] sm:gap-[40px]">
                                                 <ul className={` ${first ? "left-0" : "left-[-100%]"} flex items-center  gap-[55px] duration-300 mobileview2  max-lg:justify-center max-lg:flex-col max-lg:text-white max-lg:w-full max-lg:h-full  max-lg:fixed max-lg:top-0 max-lg:z-20 max-lg:bg-gray-700`}>
-                                                        <li>
+                                                        <Link to="/">
                                                                 <a
-                                                                        onClick={CloseView}
-                                                                        href="#"
+                                                                  onClick={() => setfirst(false)}      
+                                                                        href=""
                                                                         className='text-white cursor-pointer transition after:duration-500 after:w-0 hover:after:w-full hover:after:left-0 after:absolute relative after:right-0  after:-bottom-3  after:h-[3px] hover:font-bold after:bg-[#BD7D41] text-lg font-normal font-ff-roboto'
                                                                 >
                                                                         HOME
                                                                 </a>
-                                                        </li>
-                                                        <li>
+                                                        </Link>
+                                                        <Link to="/about">
                                                                 <a
-                                                                        onClick={CloseView}
-                                                                        href="#"
+                                                                  onClick={() => setfirst(false)}   
+                                                                        href=""
                                                                         className='text-white cursor-pointer transition after:duration-500 after:w-0 hover:after:w-full hover:after:left-0 after:absolute relative after:right-0 after:-bottom-3 after:h-[3px] hover:font-bold after:bg-[#BD7D41] text-lg font-normal font-ff-roboto'
                                                                 >
                                                                         ABOUT US
                                                                 </a>
-                                                        </li>
-                                                        <li>
+                                                        </Link>
+                                                        <Link to="/shop" >
                                                                 <a
-                                                                        onClick={CloseView}
+                                                                onClick={() => setfirst(false)}
                                                                         href="#"
                                                                         className='text-white cursor-pointer transition after:duration-500 after:w-0 hover:after:w-full hover:after:left-0 after:absolute relative after:right-0 after:-bottom-3 after:h-[3px] hover:font-bold after:bg-[#BD7D41] text-lg font-normal font-ff-roboto'
                                                                 >
                                                                         SHOP
                                                                 </a>
-                                                        </li>
-                                                        <li>
+                                                        </Link>
+                                                        <Link to="contact">
                                                                 <a
-                                                                        onClick={CloseView}
+                                                                onClick={() => setfirst(false)}
                                                                         href="#"
                                                                         className='text-white cursor-pointer transition after:duration-500 after:w-0 hover:after:w-full hover:after:left-0 after:absolute relative after:right-0 after:-bottom-3 after:h-[3px] hover:font-bold after:bg-[#BD7D41] text-lg font-normal font-ff-roboto'
                                                                 >
                                                                         CONTACT US
                                                                 </a>
-                                                        </li>
+                                                        </Link>
 
                                                 </ul>
                                                 <div className=" flex items-center gap-2 sm:gap-[28px]">

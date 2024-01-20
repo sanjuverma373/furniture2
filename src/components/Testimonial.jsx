@@ -18,86 +18,75 @@ const Testimonial = () => {
                         img: image1,
                         name: "Treepi Shoty",
                         Profession: "Teacher",
-                        bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat nunc in leo vestibulum, at congue erat accumsan. Suspendisse potenti. Suspendisse vitae vestibulum sapien."
+                        bio: "Lorem ipsum dolor sit Suspendisse feugiat nunc in leo vestibulum, at congue erat accumsan. Suspendisse potenti. Suspendisse vitae vestibulum sapien."
                 },
                 {
                         img: image2,
-                        name: "Treepi Shoty",
+                        name: "Raju Mullah",
                         Profession: "Teacher",
-                        bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat nunc in leo vestibulum, at congue erat accumsan. Suspendisse potenti. Suspendisse vitae vestibulum sapien."
+                        bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat nunc in leo vestibulum, at congue erat accumsan. Suspendisse potenti."
                 },
                 {
                         img: image3,
-                        name: "Treepi Shoty",
+                        name: "Zaire Vetrovs",
                         Profession: "Teacher",
-                        bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat nunc in leo vestibulum, at congue erat accumsan. Suspendisse potenti. Suspendisse vitae vestibulum sapien."
+                        bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat nunc in leo vestibulum, at congue erat accumsan. Suspendisse potenti. Suspendisse vitae."
                 },
                 {
                         img: image4,
-                        name: "Treepi Shoty",
+                        name: "Marcus Dias",
                         Profession: "Teacher",
-                        bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat nunc in leo vestibulum, at congue erat accumsan. Suspendisse potenti. Suspendisse vitae vestibulum sapien."
+                        bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat nunc in leo vestibulum, at congue erat accumsan."
                 },
                 {
                         img: image5,
-                        name: "Treepi Shoty",
+                        name: "Davis Schleifer",
                         Profession: "Teacher",
-                        bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat nunc in leo vestibulum, at congue erat accumsan. Suspendisse potenti. Suspendisse vitae vestibulum sapien."
+                        bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat nunc in leo vestibulum, at congue erat accumsan. Suspendisse vitae vestibulum sapien."
                 },
                 {
                         img: image6,
                         name: "Treepi Shoty",
                         Profession: "Teacher",
-                        bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat nunc in leo vestibulum, at congue erat accumsan. Suspendisse potenti. Suspendisse vitae vestibulum sapien."
+                        bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat nunc in leo vestibulum.s Suspendisse potenti. Suspendisse vitae vestibulum sapien."
                 },
                 {
                         img: image7,
-                        name: "Treepi Shoty",
+                        name: "Raju Mullah",
                         Profession: "Teacher",
-                        bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat nunc in leo vestibulum, at congue erat accumsan. Suspendisse potenti. Suspendisse vitae vestibulum sapien."
+                        bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse  at congue erat accumsan. Suspendisse potenti. Suspendisse vitae vestibulum sapien."
                 },
                 {
                         img: image1,
-                        name: "Treepi Shoty",
+                        name: "Zaire Vetrovs",
                         Profession: "Teacher",
-                        bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat nunc in leo vestibulum, at congue erat accumsan. Suspendisse potenti. Suspendisse vitae vestibulum sapien."
+                        bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum, at congue erat accumsan. Suspendisse potenti. Suspendisse vitae vestibulum sapien."
                 },
                 {
                         img: image2,
                         name: "Treepi Shoty",
                         Profession: "Teacher",
-                        bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat nunc in leo vestibulum, at congue erat accumsan. Suspendisse potenti. Suspendisse vitae vestibulum sapien."
+                        bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Suspendisse sapien."
                 },
                 {
                         img: image3,
-                        name: "Treepi Shoty",
+                        name: "Marcus Dias",
                         Profession: "Teacher",
                         bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat nunc in leo vestibulum, at congue erat accumsan. Suspendisse potenti. Suspendisse vitae vestibulum sapien."
                 },
                 {
                         img: image4,
-                        name: "Treepi Shoty",
+                        name: "Zaire Vetrovs",
                         Profession: "Teacher",
-                        bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat nunc in leo vestibulum, at congue erat accumsan. Suspendisse potenti. Suspendisse vitae vestibulum sapien."
+                        bio: "Lorem ipsum dolor sit amet. Suspendisse feugiat nunc in leo vestibulum, at congue erat accumsan. Suspendisse potenti. Suspendisse vitae vestibulum sapien."
                 },
                 {
                         img: image5,
-                        name: "Treepi Shoty",
+                        name: "Raju Mullah",
                         Profession: "Teacher",
                         bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat nunc in leo vestibulum, at congue erat accumsan. Suspendisse potenti. Suspendisse vitae vestibulum sapien."
-                },
-                {
-                        img: image6,
-                        name: "Treepi Shoty",
-                        Profession: "Teacher",
-                        bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat nunc in leo vestibulum, at congue erat accumsan. Suspendisse potenti. Suspendisse vitae vestibulum sapien."
-                },
-                {
-                        img: image7,
-                        name: "Treepi Shoty",
-                        Profession: "Teacher",
-                        bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat nunc in leo vestibulum, at congue erat accumsan. Suspendisse potenti. Suspendisse vitae vestibulum sapien."
-                },
+                },               
+               
                 
         ]
         return (
